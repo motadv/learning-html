@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+.Row {
+    display: table;
+    width: 30%;
+    table-layout: fixed;
+    border-spacing: 10px;
+
+    margin: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+
+.Column {
+    display: table-cell;
+    text-align: center;
+}
+
+
+#cabecalho {
+    background-color: antiquewhite;
+    overflow: hidden;
+    top: 0;
+    border-spacing: 0px;
+}
+
+#cabecalho h1 {
+    text-align: center;
+}
+
+#minha_foto {
+    margin: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#rodape {
+    overflow: hidden;
+    background: antiquewhite;
+    min-height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+#artigo {
+    display: block;
+    width: 50%;
+    margin: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MainRow{
+    display: table;
+    width: 100%;
+}
+
+.MainColumn{
+    display: table-cell;
+    align-items: center;
+}
+
+aside{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 200px;
+    background-color: lightslategray;
+    
+    font-style: italic;
+}
