@@ -1,0 +1,68 @@
+/* Propriedade aplicada aos 3 elementos
+    ul, ol e li apenas para remover
+    aquele padrão de ordenar por 1,2,3
+    ou por pontinhos e remover as bordas e etc */
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Removendo bordas e margens do body e dando cor */
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Definindo uma propriedade de cor para cada elemento filho
+    dentro de um elemento pai com id "Elementos" 
+    Nesse caso, cada filho dentro terá a cor branca, que define
+    a cor do texto dos filhos*/
+#Elementos {
+    color: white;
+}
+
+/* Cada item da classe "item-exemplo" vai ter as seguintes propriedades 
+Definindo para todo elemento um tamanho de um terço da tela, altura 150px
+e tamanho de texto com negrito*/
+.item-exemplo {
+    width: 33.333%;
+    height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* E para cada elemento individual, selecionados por id, eu dou uma propriedade específica
+    Seja ela cor, background, borda, o que quiser*/
+#Elemento1 {
+    background-color: green;
+}
+
+#Elemento2 {
+    background-color: darkturquoise;
+    color: black;
+    border-radius: 25px; /* Border radius serve para arredondar a borda, em 50% vira uma elipse ou círculo */
+    padding: 10px;
+}
+
+#Elemento3 {
+    background-color: darkcyan;
+    width: 50%;
+    margin-top: 15px
+}
+
+/* Dica importante, o CSS funciona por cascata,
+ se você definir algo lá em cima e mudar em baixo,
+  vale o que mudou por último, como é o caso do Elemento3 */
+
+h1 {
+    display: block;
+    background-color: gray;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
